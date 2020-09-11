@@ -1,5 +1,38 @@
 package array;
 
+//Given an array containing positive and negative numbers. The array
+//represents checkpoints from one end to other end of street. Positive
+//and negative values represent amount of energy at that checkpoint.
+//Positive numbers increase the energy and negative numbers decrease.
+//Find the minimum initial energy required to cross the street such that
+//Energy level never becomes 0 or less than 0.
+//
+//Input:
+// The first line of input contains a single integer T denoting the
+// number of test cases. Then T test cases follow. Each test case
+// consist of two lines. The first line of each test case consists
+// of an integer N, where N is the size of array. The second line
+// of each test case contains N space separated integers denoting
+// array elements.
+//
+//        Constraints:
+//        1 ≤ T ≤ 100
+//        1 ≤ N ≤ 100
+//        -500 ≤ A[i] ≤ 500
+//
+//        Example:
+//
+//        Input
+//        2
+//        5
+//        4 -10 4 4 4
+//        5
+//        3  5 2  6 1
+//
+//        Output
+//        7
+//        1
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
