@@ -1,3 +1,4 @@
+//EASY
 package gettingStarted;
 
 //1. You've to display the digits of a number.

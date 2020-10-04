@@ -1,3 +1,4 @@
+//EASY
 package gettingStarted;
 
 import java.util.Scanner;
@@ -18,3 +19,5 @@ public class PrimeFactorization {
             System.out.print(n);
     }
 }
+
+// solution video link -> https://www.youtube.com/watch?v=5gFC-ayyQMk

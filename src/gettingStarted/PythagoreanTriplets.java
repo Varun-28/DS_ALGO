@@ -1,3 +1,4 @@
+//EASY
 package gettingStarted;
 
 import java.util.Scanner;

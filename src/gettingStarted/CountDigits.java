@@ -1,3 +1,4 @@
+//EASY
 package gettingStarted;
 
 //1. You've to count the number of digits in a number.

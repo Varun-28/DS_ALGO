@@ -1,3 +1,4 @@
+//EASY
 package gettingStarted;
 
 //1. You've to print all prime numbers between a range.

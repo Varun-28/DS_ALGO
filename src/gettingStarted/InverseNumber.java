@@ -1,3 +1,4 @@
+//EASY
 package gettingStarted;
 
 //1. You are given a number following certain constraints.
@@ -33,3 +34,6 @@ public class InverseNumber {
         System.out.println(i);
     }
 }
+
+//for better concept understanding see solution video
+//video link ->   https://www.youtube.com/watch?v=O7PlWc9lOzg&t=652s

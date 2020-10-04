@@ -1,3 +1,4 @@
+//EASY
 package gettingStarted;
 
 //1. You are given as input marks of a student.
