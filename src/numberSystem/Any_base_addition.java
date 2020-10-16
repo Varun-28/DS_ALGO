@@ -24,8 +24,8 @@ public class Any_base_addition {
             n2 /= 10;
 
             int d = d1 + d2 + carry;
-            carry = d / b;
-            d %= b;
+            carry = d / b;//first this
+            d %= b;//then this
 
             sum += d * power;
             power *= 10;
