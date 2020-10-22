@@ -88,7 +88,7 @@ public class ArrayRotate {
 //	For right rotate-
 //	arr[i] = arr[(i+N-D)%N]
 
-//method 3
+//method 3 (best method)
 
 //class ArrayRotate {
 //	public static void main(String[] args) {
@@ -101,6 +101,8 @@ public class ArrayRotate {
 //	    for(int i = 0; i < n; i++){
 //	        arr[i] = sc.nextInt();
 //	    }
+//      d %= n;
+//      if(d < 0) d += n;
 //        rotate(arr,0,d);
 //        rotate(arr,d,n);
 //        rotate(arr,0,n);
