@@ -1,3 +1,5 @@
+//EASY
+//see problem statement from InverseNumber ques from getting started package.
 package array;
 
 import java.io.BufferedReader;

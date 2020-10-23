@@ -1,3 +1,4 @@
+//EASY
 package array;
 
 //Given an unsorted array arr[] of size N,

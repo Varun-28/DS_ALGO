@@ -1,3 +1,4 @@
+//EASY
 package array;
 
 import java.io.BufferedReader;

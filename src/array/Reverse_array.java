@@ -1,3 +1,4 @@
+//Easy
 package array;
 
 import java.io.BufferedReader;
@@ -15,6 +16,7 @@ public class Reverse_array {
 
     public static void reverse(int[] a){
         //code here
+        //using two pointers algo
         int low = 0;
         int high = a.length-1;
         while(low < high){
@@ -25,6 +27,21 @@ public class Reverse_array {
             high--;
         }
     }
+
+//method-2
+//
+//    public static void main (String[] args){
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        int[] arr = new int[n];
+//        for(int i = 0; i < n; i++){
+//            arr[n-1-i] = sc.nextInt();
+//        }
+//        for(int i = 0; i < n; i++){
+//            System.out.println(arr[i]+" ");
+//        }
+//
+// can also be done using stack
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

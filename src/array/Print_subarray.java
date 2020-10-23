@@ -1,5 +1,25 @@
 package array;
 
+//1. You are given a number n, representing the count of elements.
+//2. You are given n numbers.
+//3. You are required to print all sub arrays of arr. Each sub array should be
+//on separate line. For more clarity check out sample input and output.
+//Sample Input
+//
+//        3
+//        10
+//        20
+//        30
+//
+//        Sample Output
+//
+//        10
+//        10	20
+//        10	20	30
+//        20
+//        20	30
+//        30
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
