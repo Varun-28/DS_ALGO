@@ -1,5 +1,5 @@
 //EASY
-package array;
+package searching;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

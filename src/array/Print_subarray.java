@@ -1,3 +1,4 @@
+//EASY
 package array;
 
 //1. You are given a number n, representing the count of elements.
@@ -14,10 +15,10 @@ package array;
 //        Sample Output
 //
 //        10
-//        10	20
-//        10	20	30
+//        10 20
+//        10 20	30
 //        20
-//        20	30
+//        20 30
 //        30
 
 import java.io.BufferedReader;

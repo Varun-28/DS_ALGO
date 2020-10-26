@@ -1,5 +1,5 @@
 //EASY
-package array;
+package searching;
 
 //1. You are given a number n, representing the size of array a.
 //2. You are given n numbers, representing elements of array a.
@@ -46,7 +46,7 @@ public class Ciel_floor {
             arr[i] = Integer.parseInt(br.readLine());
         int d = Integer.parseInt(br.readLine());
 
-        int l = 0, h = n-1, ciel = arr[0], floor = arr[n-1];
+        int l = 0, h = n-1, ciel = -1, floor = -1;
 
         while(l <= h){
             int mid = (l + h)/2;
@@ -57,9 +57,11 @@ public class Ciel_floor {
                 ciel = arr[mid];
                 h = mid - 1;
             }else{
-                ciel = arr[mid+1];
-                floor = arr[mid-1];
-                return;
+                if(mid >0)
+                    floor = arr[mid-1];
+                if(mid <n-1)
+                    ciel = arr[mid+1];
+                break;
             }
         }
         System.out.println(ciel);
