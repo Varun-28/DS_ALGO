@@ -23,6 +23,7 @@ package String;
 import java.util.Scanner;
 
 public class String_compression {
+
     public static String compression1(String str){
         String s = str.charAt(0) + "";
         for(int i = 1; i < str.length(); i++){
@@ -66,4 +67,5 @@ public class String_compression {
         System.out.println(compression1(str));
         System.out.println(compression2(str));
     }
+
 }
