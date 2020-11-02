@@ -57,7 +57,6 @@ public class String_compression {
         }
         if(count > 1){
             s += count;
-            count = 1;
         }
         return s;
     }

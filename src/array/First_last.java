@@ -1,5 +1,5 @@
 //EASY
-package searching;
+package array;
 
 //Question
 //
