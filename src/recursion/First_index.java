@@ -27,7 +27,7 @@ public class First_index {
         } else {
             int fiisa = firstIndex(arr, idx + 1, x);
             return fiisa;
-            //fiisa = first index of smaller array
+            //fiisa = first index in smaller array
         }
     }
 
