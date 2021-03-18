@@ -22,7 +22,7 @@ public class BenjaminBulbs {
 }
 // explanation :-
 // only perfect-square numbers have odd numbers of factors so they remain onn.
-// e.g. 4 -> 1x4, 2x2, 4x4
+// e.g. 4 -> 1x4, 2x2, 4x1
 // e.g. 6 -> 1x6, 2x3, 3x2, 6x1
 // so we will print all perfect-square numbers less than or equal to n.
 

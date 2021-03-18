@@ -24,9 +24,9 @@ public class Get_subsequence {
         ArrayList<String> recursive_list = gss(substr);
 
         ArrayList<String> my_list = new ArrayList<>();
-        for(String val: recursive_list){
-            my_list.add(val);
-        }
+
+        my_list.addAll(recursive_list);
+
         for(String val: recursive_list){
             my_list.add(c + val);
         }
