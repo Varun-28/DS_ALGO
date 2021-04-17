@@ -7,3 +7,5 @@ public class StringEqual {
         System.out.println("result = "+ s1 == s2);
     }
 }
+// "result = " + "Shilpe"
+// "result = Shilpe" == "Shilpe"   -> false

@@ -9,6 +9,7 @@ public class Fibonacci {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         System.out.println(fibMemorized(n, new int[n+1]));
+        System.out.println(fibTabular(n));
     }
     public static int fibMemorized(int n, int[] memo){
         if(n == 0 || n == 1){
@@ -23,5 +24,15 @@ public class Fibonacci {
 
         memo[n] = fib;
         return fib;
+    }
+    public static int fibTabular(int n){
+        int[] dp = new int[n+1];
+        dp[0] = 0;
+        dp[1] = 1;
+
+        for(int i = 2; i <= n; i++){
+            dp[i] = dp[i-1] + dp[i-2];
+        }
+        return dp[n];
     }
 }
